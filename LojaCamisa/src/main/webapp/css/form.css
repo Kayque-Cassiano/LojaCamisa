@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+form{
+    background-color: #c1c1c1;
+    margin: 40px auto;
+    width: 40%;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px 3px rgba(0, 0, 0, 0.4);
+}
+
+form div{
+    margin: 16px;
+}
+
+form .flex{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+form input[type="text"], input[type="number"]{
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    border: 1px solid gray;
+    outline: none;
+    display: block;
+    margin-top: 4px;
+}
+
+form label {
+    margin-bottom: 24px;
+}
+
+form textarea{
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    font-size: 16px;
+    resize: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+p{
+    margin-bottom: 4px;
+}
+
+.botao {
+    display: flex;
+    justify-content: flex-end;
+}
+
+form button{
+    padding: 8px 24px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    background-color: rgb(70, 70, 70);
+    transition: 0.5s;
+    color: #c1c1c1;
+}
+
+form button:hover{
+    background-color: rgb(49, 49, 49);
+    transition: 0.5s;
+}

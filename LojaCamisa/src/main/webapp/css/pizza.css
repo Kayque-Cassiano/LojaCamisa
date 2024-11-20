@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.produto{
+    width: 50%;
+    height: 405px;
+    margin: 32px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 2px 2px 4px 3px rgba(0, 0, 0, 0.4);
+    background-color: #c1c1c1;
+}
+
+.produto img{
+    width: 30%;
+}
+
+.produto img:hover{
+    content: url(../images/camisa-costas.png);
+}
+
+.produto .texto-produto p{
+    margin: 16px;
+}
+
+.produto button{
+    padding: 16px 24px;
+    margin-top: 24px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    background-color: rgb(70, 70, 70);
+    transition: 0.5s;
+}
+
+.produto button:hover{
+    background-color: rgb(49, 49, 49);
+    transition: 0.5s;
+}
+
+.produto button a{
+    text-decoration: none;
+    color: #c1c1c1;
+}
